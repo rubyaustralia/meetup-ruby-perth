@@ -10,5 +10,5 @@ This is an issue-only repo; no code is stored here.
 
 * Bruce Werdschinski
 * Brandyn Britton
-* Mark Glossop
+* [Mark Glossop](https://github.com/Cueball)
 * David Perich
