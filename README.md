@@ -1,3 +1,6 @@
+<!-- FYI: intent for this repo is heavily based on the Ruby Melbourne meetup repo -->
+<!-- See: https://github.com/rubyaustralia/melbourne-ruby -->
+
 # Ruby Perth
 
 The repo is used for tracking issues related to the Ruby Perth meetup, particularly for tracking presentations and topics of interest.
