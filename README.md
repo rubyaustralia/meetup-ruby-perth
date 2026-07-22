@@ -31,6 +31,8 @@ Issue tracker for the [Ruby Perth meetup](https://www.meetup.com/ruby-perth-meet
 * Spotted a problem at an event, or have an idea to make the meetup better? We genuinely want to hear it
 * Prefer to raise something privately? Talk to an organiser in person, or use the contact details below
 
+---
+
 ## Meetup Logistics
 
 * **When:** 2nd last Wednesday of each month — RSVP via [meetup.com](https://www.meetup.com/ruby-perth-meetup/)
@@ -49,6 +51,8 @@ A typical evening:
    * **Code Challenge** — attendees solve a challenge individually, then compare solutions; bring a device (we'll flag this in advance)
 
 Talks aren't currently recorded, and there's no virtual option yet — both are under consideration. [Feedback welcome!](https://github.com/rubyaustralia/meetup-ruby-perth/issues/new/choose)
+
+---
 
 ## Sponsors
 
@@ -86,6 +90,8 @@ Our monthly events are coordinated by a team of local developers:
 * [Mark Glossop](https://github.com/Cueball)
 
 > Interested in joining the team and helping out? Please talk to us — contact info below, or just have a chat during the meetup…
+
+--- 
 
 ## Contact Us
 
