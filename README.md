@@ -3,143 +3,105 @@
 
 # Ruby Perth
 
-This repo is used for tracking "issues" related to the [Ruby Perth meetup](https://www.meetup.com/ruby-perth-meetup/).
-
-Intent for this repo is mainly to track presentation proposals and topics of interest. It will also be used for managing suggestions and enhancements to our local meetup, ensuring it's a positive and helpful experience for all. 
-
-This `README` is to document some behind-the-scenes information for meetup orgnisers, and the process to submit a presentation proposal or topic request.
+Issue tracker for the [Ruby Perth meetup](https://www.meetup.com/ruby-perth-meetup/) — mainly presentation proposals, topic requests, and suggestions for improving our monthly events.
 
 > [!NOTE]
-> This is an issue-only repo. No code is stored here.
+> This is an issue-only repo. No code lives here.
 
 > [!TIP]
-> Are you a Perth local and curious about Ruby? Please feel free to join us at our monthly meetup 😃
->
-> Interested but unable to join us? Give us a GitHub star or on this repo - it'll help us be better informed about how much interest is out there!
+> Perth local and curious about Ruby? Join us at our monthly meetup 😃
+> Interested but can't make it? A GitHub star helps us gauge interest!
 
-## Repo Intent
+## How to Get Involved
 
-As mentioned, we're using this repo to track issues:
-* View [all our currently tracked issues](https://github.com/rubyaustralia/meetup-ruby-perth/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen)
-* Proposals for [presentations/talks](https://github.com/rubyaustralia/meetup-ruby-perth/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20label%3AProposal-Talk):
-  * We're always on the lookout for people who are willing to present to our local Ruby community
-  * Presentations can be about anything that relates to Ruby, even if only "tangentially" related
-  * Some example ideas for presentations: Ruby internals, "how to do X with Ruby", new and updated Rails features, recent changes in web development, Ruby and mobile dev, web accessibility, developer toolchains and utilities, language comparisons (see note at end), general tech industry commentary and much more
-  * Also very happy for presentations from people that are "outside" of the local Ruby community - some (non-exhaustive) examples:
-    * Web designers talking about design principles or relevant new UI/UX concepts
-    * Developer tool advocates (could be either commercial or F/OSS products - organisers to determine what's "OK" with community)
-    * Disability advocates with expertise in web accessibility
-    * Academics/experts speaking about developments in computer science or computer languages
-    * Notable tech experts visiting Perth and willing to present
-    * (There's plenty more scope here...)
-  * If someone has a proposal but unsure if it's relevant or of interest? Discuss with them and (if needed) the rest of the organiser team
-  * If someone is considering presenting but not sure what people want to know about? Refer them to the Topics of Interest for ideas that people have already expressed interest in knowing about…
-* Requested [topics of interest](https://github.com/rubyaustralia/meetup-ruby-perth/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20label%3AProposal-Topic):
-  * If there's a topic that someone wants to know more about? Encourage them to check the list of requested topics
-  * If it already exists, they can add a :+1: to the topic
-  * If it's not already present, invite them to add a topic request issue to the repo
-  * This will help organisers understand what our local community members are most interested in hearing and learning about
-Create an [Other Issue](https://github.com/rubyaustralia/meetup-ruby-perth/issues/new/choose):
-  * Noticed a problem - big or small - at a meetup event?
-  * Have a suggested enhancement to the meetup(s)?
-  * An idea that could make our monthly events more beneficial, welcoming or just "better" in some way?
-  * Organisers should always reinforce being absolutely open to feedback
-  * Want people to help us identify ways to improve our monthly events - best way is by creating a new "Other Issue"
-  * If someone wants to discuss an issue privately? Encourage in-person contact at the meetup, or they can use the contact info for our organiser team below…
+**Propose a talk** — [browse open proposals](https://github.com/rubyaustralia/meetup-ruby-perth/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20label%3AProposal-Talk) or open a new one.
+
+* Anything Ruby-related is fair game, even tangentially: Ruby internals, Rails features, web dev, accessibility, tooling, language comparisons, industry commentary, and more
+* Speakers from outside the Ruby community are very welcome — designers, dev tool advocates, accessibility experts, academics, or visiting tech folk
+* Not sure if your idea fits? Chat with an organiser
+* Not sure what to talk about? Check the requested topics below for inspiration
+
+**Request a topic** — [browse topics of interest](https://github.com/rubyaustralia/meetup-ruby-perth/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20label%3AProposal-Topic).
+
+* Want to learn about something? 👍 an existing topic, or open a new topic request
+* This helps organisers understand what the community wants to hear
+
+**Everything else** — [open an Other Issue](https://github.com/rubyaustralia/meetup-ruby-perth/issues/new/choose).
+
+* Spotted a problem at an event, or have an idea to make the meetup better? We genuinely want to hear it
+* Prefer to raise something privately? Talk to an organiser in person, or use the contact details below
 
 ## Meetup Logistics
 
-Logistical information about our monthly meetup:
-* We use meetup.com to help manage our montly events at [Ruby Perth meetup](https://www.meetup.com/ruby-perth-meetup/)
-* We meet monthly on the `2nd Wednesday of each month`
-* Venue is the Fat Zebra offices (Perth CBD):
-  * Floor 6, 66 St Georges Terrace, Perth
-  * See meetup.com for map links and venue pictures
-  * Venue is open to attendees from 5:00pm; we aim to start around 5:20pm
-  * Note that the venue building security locks entry at 5:30pm
-  * For attendees arriving after 5:30pm - event info should include a "rapid" contact method; attendees can send a message on arrival and someone will come down promptly to let them in
-* We order pizzas from a nearly pizzeria shortly after "officially" starting the meetup
-  * ETA will be around 6~6:30pm
-  * ETA should be scheduled during the expected discussion following the initial presentation
-  * Timing depends on duration of presentation
-  * After conclusion of presentation and discussion, break for pizza consumption and some socialising
-* After food, meetup resumes - content will usually vary each month, and can include one or more of:
-  * Another presentation
-  * [Lightning talk(s)](https://en.wikipedia.org/wiki/Lightning_talk)
-  * "Weird Ruby" - Ruby can surprise us: this is a brief segment where a small sample of Ruby code is shown and "odd" or unexpected behaviour is discussed and explained. (Concept thefted from Ruby Melbourne.)
-  * Collective Coding - group coding aka "mass pairing" session where a code problem is discussed and solved using Ruby; likely has more discussion but hard to explore multiple approaches; doesn't require users to bring mobile devices
-  * Code Challenge - similar concept, but attendees work individually to solve a specific code challenge; then various solutions are shared and discussed; need to advise attendees in advance that a mobile device will be needed
-  * Other concepts/ideas under active consideration
-  * [Feedback](https://github.com/rubyaustralia/meetup-ruby-perth/issues/new/choose) on these or other ideas is welcomed!
-* Currently not recording our presentations - under consideration
-* Currently no virtual meetup option - an "in-person and online" hybrid meetup arrangement is under consideration
+* **When:** 2nd last Wednesday of each month — RSVP via [meetup.com](https://www.meetup.com/ruby-perth-meetup/)
+* **Where:** See the meetup.com event page for the current venue, map links and photos
+* **Timing:** Doors from 5:00pm; we aim to start around 5:20pm
+* **Arriving late?** Event info includes a "rapid" contact method — send a message on arrival and someone will come let you in
+
+A typical evening:
+
+1. **First presentation** — followed by discussion
+2. **Pizza break** — ordered shortly after kickoff to arrive ~6–6:30pm, timed around the first talk
+3. **Second half** — varies each month, and may include:
+   * Another presentation or [lightning talks](https://en.wikipedia.org/wiki/Lightning_talk)
+   * **Weird Ruby** — a short snippet of surprising Ruby behaviour, explained (concept thefted from Ruby Melbourne)
+   * **Collective Coding** — group "mass pairing" on a code problem; no device needed
+   * **Code Challenge** — attendees solve a challenge individually, then compare solutions; bring a device (we'll flag this in advance)
+
+Talks aren't currently recorded, and there's no virtual option yet — both are under consideration. [Feedback welcome!](https://github.com/rubyaustralia/meetup-ruby-perth/issues/new/choose)
 
 ## Sponsors
 
-* All our monthly meetup event costs are covered by [Ruby Australia](https://www.ruby.org.au) via annual [sponsorship](https://www.ruby.org.au/sponsorship) arrangements
-* Our Venue and Drinks are also provided through in-kind sponsorship arrangements
-* During the introduction to each monthly event, we publicly thank each of the following:
-  * All [current Ruby Australia Sponsors](https://ruby.org.au/sponsorship) at Ruby and Sapphire level
-  * Our local Venue and Drinks sponsors
-* Sponsors are to be mentioned by name, showing their logo, URL and given a short verbal description
+Monthly event costs are covered by [Ruby Australia](https://www.ruby.org.au) via annual [sponsorship](https://www.ruby.org.au/sponsorship) arrangements, with venue and drinks provided through in-kind sponsorships.
 
-Ruby Perth present sponsors are:
+At the start of each event we thank, by name with logo, URL and a short description:
 
-* [Assembly Four](https://assemblyfour.com/) - Ruby Australia [Sappire Sponsor](https://ruby.org.au/sponsorship)
-* [Fat Zebra](https://www.fatzebra.com) - Ruby Perth Venue Sponsor
-* _YOUR_NAME_HERE_ - Ruby Perth Drinks Sponsor (contact us and we can talk!)
+* All current Ruby Australia sponsors at Ruby and Sapphire level
+* Our local venue and drinks sponsors
 
-## Meetup Attendee Environment
+Current Ruby Perth sponsors:
 
-* **Ruby Perth organisers are committed to ensuring our meetup is an environment that is welcoming, inclusive, kind and respectful for everyone**
-* This meetup is a Ruby Australia event:
-   * It is run under the terms of the [Ruby Australia Code of Conduct](https://ruby.org.au/policies/code-of-conduct)
-   * There are associated [reporting](https://ruby.org.au/code-of-conduct-reporting) and [enforcement](https://ruby.org.au/code-of-conduct-enforcement) guidelines
-   * Event organisers should note your responsibilities under this CoC - please ensure you've read it and understand it
-   * All attendees (including organisers) at meetup events are expected to understand and abide by the Code of Conduct
-* Is an attendee is having a problem, or is maybe feeling unsafe?
-  * If this happens, all attendees should be encouraged in advance to contact the meetup event organisers directly
-  * Organisers should clearly identify themselves to all attendees at the start of each meetup event
-  * Organisers should always ensure that **attendee safety is prioritised** - this may mean having to ask someone to either cease a specific behaviour, or even asking an attendee to leave the event
-  * If it is determined that a "reportable incident" has occurred, assistance and direction will be provided by Ruby Australia personnel, consistent with the guidelines above
-* Attendees and organisers can also contact Ruby Australia directly: via [email](mailto:conduct@ruby.org.au), [Slack](rubyau.slack.com) (send DM to `@president-rubyau`) or [web](https://ruby.org.au/contact) form.
+* [Assembly Four](https://assemblyfour.com/) — Ruby Australia [Sapphire Sponsor](https://ruby.org.au/sponsorship)
+* [Ascend Health Group](https://www.ascendhealthgroup.com.au/) — Ruby Perth Venue Sponsor 
+* _YOUR_NAME_HERE_ — Ruby Perth Drinks Sponsor (contact us and we can talk!)
+
+## Code of Conduct
+
+**Ruby Perth is committed to a welcoming, inclusive, kind and respectful environment for everyone.**
+
+This is a Ruby Australia event, run under the [Ruby Australia Code of Conduct](https://ruby.org.au/policies/code-of-conduct), with associated [reporting](https://ruby.org.au/code-of-conduct-reporting) and [enforcement](https://ruby.org.au/code-of-conduct-enforcement) guidelines. All attendees — organisers included — are expected to read, understand and abide by it.
+
+If you're having a problem or feeling unsafe at an event:
+
+* Contact an organiser directly — we identify ourselves at the start of each meetup
+* Attendee safety is always the priority; organisers may ask someone to stop a behaviour or leave the event
+* Reportable incidents are handled with Ruby Australia's assistance, per the guidelines above
+* You can also contact Ruby Australia directly via [email](mailto:conduct@ruby.org.au), [Slack](rubyau.slack.com) (DM `@president-rubyau`) or the [web form](https://ruby.org.au/contact)
 
 ## Organiser Team
 
-The meetup organisers are a team of local developers who collaborate together to coordinate our monthly events:
-* [Bruce Werdschinski](https://github.com/bwerdschinski)
+Our monthly events are coordinated by a team of local developers:
+
 * [Brandyn Britton](https://github.com/GoodPie)
 * [Mark Glossop](https://github.com/Cueball)
-* [David Perich](https://github.com/DavidPerich)
 
-> Interested in joining the team and helping out? Please talk to us! Contact info below, or just have chat with us during the meetup…
+> Interested in joining the team and helping out? Please talk to us — contact info below, or just have a chat during the meetup…
 
-## Contact Us 
+## Contact Us
 
-To contact the organiser team:
-* In-person at each monthly meetup event
-  * Recommended for attendees wanting an extended discussion (e.g. presentation proposal)
-  * If an attendee wants to raise a matter confidentially
-* Via meetup.com
-  * For a specific event, leave an Event Comment - go to the specific event page, then look for "Start the conversation" towards the end
-  * If messaging the Ruby Perth meetup organisers directly - use the [Leadership Team](https://www.meetup.com/ruby-perth-meetup/members/?op=leaders) link on the meetup home page, select one of the organisers with an actual profile picture, then click the message bubble to contact one of them
-* Ruby Oceania Slack:
-  * Post your message in the **public** [#meetup-perth](https://rubyau.slack.com/archives/C24ECJ4LD) channel
-  * Be sure to tag @org-meetups-perth-group in your post
-* Text message:
-  * Send a text message to the phone number listed in the meetup event detail
-  * **Note - this is only for venue access while the meetup is in progress**
+* **In person** at any monthly meetup — best for extended discussions (e.g. talk proposals) or confidential matters
+* **meetup.com** — leave an Event Comment on a specific event, or message an organiser via the [Leadership Team](https://www.meetup.com/ruby-perth-meetup/members/?op=leaders) page (pick someone with a profile picture, then click the message bubble)
+* **Ruby Oceania Slack** — post in the **public** [#meetup-perth](https://rubyau.slack.com/archives/C24ECJ4LD) channel and tag `@org-meetups-perth-group`
+* **Text message** — to the number in the event details; **venue access during the meetup only**
+
 <!-- #TODO: configure the perth@ruby.org.au email address -->
 
---- 
+---
 
 <details>
   <summary>On language comparisons</summary>
 
-  * We accept that most computer languages (including Ruby) have both unique advantages and idiosyncracies
-  * We view those differences as an opportunity to learn more about other computing environments
-  * Perhaps also as insights to improve our own environment and langauge of choice
-  * We recognise that users of other languages may choose to visit or join our meetup at any time, and try to ensure all attendees have a positive experience
+  Most languages (Ruby included) have unique advantages and idiosyncrasies. We treat those differences as a chance to learn about other environments — and maybe improve our own. Users of other languages are welcome at any time, and we want everyone to have a positive experience.
+
   > Constructive language comparisons are acceptable. "Bashing" of other languages is not.
 </details>
-
