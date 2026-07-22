@@ -33,7 +33,7 @@ Issue tracker for the [Ruby Perth meetup](https://www.meetup.com/ruby-perth-meet
 
 ## Meetup Logistics
 
-* **When:** 2nd Wednesday of each month — RSVP via [meetup.com](https://www.meetup.com/ruby-perth-meetup/)
+* **When:** 2nd last Wednesday of each month — RSVP via [meetup.com](https://www.meetup.com/ruby-perth-meetup/)
 * **Where:** See the meetup.com event page for the current venue, map links and photos
 * **Timing:** Doors from 5:00pm; we aim to start around 5:20pm
 * **Arriving late?** Event info includes a "rapid" contact method — send a message on arrival and someone will come let you in
@@ -62,7 +62,7 @@ At the start of each event we thank, by name with logo, URL and a short descript
 Current Ruby Perth sponsors:
 
 * [Assembly Four](https://assemblyfour.com/) — Ruby Australia [Sapphire Sponsor](https://ruby.org.au/sponsorship)
-* _YOUR_NAME_HERE_ — Ruby Perth Venue Sponsor (contact us and we can talk!)
+* [Ascend Health Group](https://www.ascendhealthgroup.com.au/) — Ruby Perth Venue Sponsor 
 * _YOUR_NAME_HERE_ — Ruby Perth Drinks Sponsor (contact us and we can talk!)
 
 ## Code of Conduct
